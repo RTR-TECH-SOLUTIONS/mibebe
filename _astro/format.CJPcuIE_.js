@@ -1,0 +1,1 @@
+var e=`/mibebe`.replace(/\/$/,``),t=t=>t.startsWith(`/`)&&!t.startsWith(`//`)?`${e}${t}`:t,n=new Intl.NumberFormat(`ro-RO`,{minimumFractionDigits:2,maximumFractionDigits:2}),r=e=>`${n.format(e)} lei`,i=(e,t)=>{let n=Math.abs(e)%100;return`${e} ${n===0&&e!==0||n>=20?`de `:``}${t}`},a=e=>e===1?`1 produs`:i(e,`produse`);export{a as n,t as r,r as t};
