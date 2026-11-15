@@ -1,0 +1,1 @@
+export{t as default,n as eticheta}from"./CosSertar.C4gNPB0Z.js";
